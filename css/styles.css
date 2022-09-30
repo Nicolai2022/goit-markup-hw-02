@@ -48,12 +48,17 @@ h6 {
   font-style: normal;
 }
 
+/* .nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+} */
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
 
-/* button портфоліо */
+/* buttons портфоліо */
 .hover-button:hover,
 .hover-button:focus {
   background-color: var(--accent-color);
@@ -69,12 +74,19 @@ h6 {
   color: var(--accent-color);
 }
 
+/* Студія, Портфоліо, Контакти */
+
 .nav-list .nav-link {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--accent-color);
 }
 
 .hero {
